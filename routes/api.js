@@ -33,7 +33,7 @@ router.get('/teacher', function(req, res, next){
 
 router.post('/register', async (req, res) => {
 
-   // validate befoe create
+   // validate before create
    const {error} = registerValidation(req.body);
    //res.send(error.details[0].message);
 
